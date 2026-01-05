@@ -12,7 +12,7 @@ import java.util.Map;
 public class OmdbService {
 
     // Your API Key
-    private static final String API_KEY = "55a85dfb";
+    private static final String API_KEY = "YOUR API KEY";
     private static final String BASE_URL = "https://www.omdbapi.com/";
 
     private final InMemoryCache<String, Map> movieCache = new InMemoryCache<>(60, 100);
