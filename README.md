@@ -35,7 +35,6 @@ OMDB Movie Explorer is a full-stack Spring Boot application that allows users to
 
 ## 📂 Project Architecture
 
-```text
 Controller Layer
    ↓
 Service Layer
@@ -45,9 +44,9 @@ OMDb External API
 In-Memory Cache
    ↓
 Frontend (HTML + JS)
+
 📁 Project Structure
-text
-Copy code
+
 src/main/java/com/jit/omdb/
 ├── controller/      # REST API endpoints
 ├── service/         # Business logic & OMDb API calls
@@ -60,6 +59,7 @@ src/main/resources/
 │   ├── css/styles.css
 │   └── js/app.js
 └── application.properties
+
 ⚙️ Setup & Run Instructions
 Prerequisites
 Java 17+
@@ -71,29 +71,20 @@ OMDb API Key
 Steps
 Clone the repository
 
-bash
-Copy code
 git clone https://github.com/Prasanjit2003/OMDB-Movie-Explorer.git
 Open the project
 
-bash
-Copy code
 cd OMDB-Movie-Explorer
 Configure API key in application.properties
 
-properties
-Copy code
 omdb.api.key=YOUR_API_KEY
 Run the application
 
 bash
 Copy code
 mvn spring-boot:run
-Open in browser
+Open in browser http://localhost:8080
 
-arduino
-Copy code
-http://localhost:8080
 🧠 Caching Strategy
 Uses a custom InMemoryCache class
 
