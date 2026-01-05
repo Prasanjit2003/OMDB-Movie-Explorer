@@ -71,7 +71,7 @@ OMDb API Key
 
 Steps
 Clone the repository
-git clone https://github.com/<your-username>/OMDB-Movie-Explorer.git
+git clone https://github.com/<your-username>/OMDB-Movie-Explorer.git](https://github.com/Prasanjit2003/OMDB-Movie-Explorer.git
 Open the project
 cd OMDB-Movie-Explorer
 Configure API key in application.properties
